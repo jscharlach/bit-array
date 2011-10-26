@@ -62,7 +62,7 @@ valueOf()
 toArray()
     Convert the BitArray to an Array of boolean values.
 toIntArray()
-    Convert the BitArray to an Array of integers values.
+    Convert the BitArray to an Array of integers.
 count()
     Returns the total number of bits set to 1 in this BitArray.
 forEach(fn, scope)
