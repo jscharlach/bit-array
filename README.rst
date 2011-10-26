@@ -41,6 +41,8 @@ size()
     Returns the total number of bits in the BitArray.
 set(index, boolean)
     Sets the bit at index to a value (boolean.)
+setBits(indexes, boolean)
+    For each index in the array 'indexes' set the bit to the value (boolean).
 get(index)
     Returns the value of the bit at index (boolean.)
 toggle(index)
@@ -59,6 +61,8 @@ valueOf()
     Returns the internal representation of the BitArray.
 toArray()
     Convert the BitArray to an Array of boolean values.
+toIntArray()
+    Convert the BitArray to an Array of integers values.
 count()
     Returns the total number of bits set to 1 in this BitArray.
 forEach(fn, scope)
